@@ -1,0 +1,260 @@
+body {
+    justify-content: center;
+}
+
+.mainheader {
+    padding: 1rem 2.5rem;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.mainheader h1 {
+    color: red;
+    font-size: 40px;
+}
+
+.navbutton {
+    width: 100%;
+    justify-content: right;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+.navbutton * {
+    box-sizing: border-box;
+    transition: all 0.35s ease;
+}
+
+.navbutton li {
+    display: inline-block;
+    list-style: none;
+    margin: 0.5em 1em;
+}
+
+.navbutton a {
+    padding: 0.5em 0.8em;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbutton a::before,
+.navbutton a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all 0.35s ease;
+    opacity: 0;
+}
+
+.navbutton a::before {
+    right: 0;
+    top: 0;
+    border-top: 3px solid #e90000;
+    border-right: 3px solid #ff0000;
+    transform: translate(-100%, 50%);
+}
+
+.navbutton a:after {
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #d71515;
+    border-left: 3px solid #d71515;
+    transform: translate(100%, -50%);
+}
+
+.navbutton a:hover:before,
+.navbutton a:hover:after {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.navbutton a:hover {
+    color: #ff0000;
+}
+
+.bground1 {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    filter: sepia(0.5) hue-rotate(-2deg) opacity(0.9);
+}
+
+.firstdiv {
+    margin-top: 9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    height: 55rem;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Shadow effect */
+}
+
+.firstdiv h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150px;
+    text-align: center;
+    justify-content: center;
+}
+
+.firstdiv h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    text-align: center;
+    justify-content: center;
+}
+
+.firstdiv p {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+:root {
+    --color: #fb705f;
+  }
+  body {
+    height: 100vh;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  .color-text {
+    color: var(--color);
+  }
+  
+  button {
+    width: 200px;
+    padding: 20px;
+    border: 0;
+    color: white;
+    background-color: var(--color);
+  }
+  
+  section {
+    margin-top: 15rem;
+    width: 100%;
+    position: relative;
+    flex-wrap:wrap;
+    display: flex;
+    gap: 1em;
+    z-index: 999;
+  }
+  
+  .box {
+    height: 400px;
+    width: 600px;
+    background-color: #e2e2e2;
+    position: absolute;
+    right: -10%;
+    top: -50px;
+    z-index: 1;
+  }
+  
+  .card {
+    z-index: 999;
+    min-width:240px;
+    flex: 1;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .card:nth-child(1) {
+    min-width:300px;
+    height:auto;
+  }
+  
+  .card:nth-child(2) {
+    background-image: url(https://cdn.vectorstock.com/i/preview-1x/13/34/cartoon-apocalyptic-city-landscape-with-destroyed-vector-38931334.jpg);
+  }
+  
+  .card:nth-child(3) {
+    background-image: url(https://img.freepik.com/free-vector/city-destroy-war-zone-abandoned-buildings-bridge-with-smoke-cataclysm-destruction-natural-disaster-post-apocalyptic-world-ruins-with-broken-road-street-cartoon-illustration_107791-3826.jpg);
+  }
+  
+  .card:nth-child(4) {
+    background-image: url(https://img.freepik.com/free-vector/nuclear-bomb-explosion-ruined-city-vector_1441-3840.jpg);
+  }
+  
+  .card .text {
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    left: 10px;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    section {
+      height: 100%;
+    }
+    
+    button {
+    padding: 10px;
+  }
+  
+    .box {
+      display: none;
+    }
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #fa2600;
+    border: 2px solid #ec896e;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    border-color: #120101;
+    color: black;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:active {
+    transform: translateY(1px);
+}
+
+.footer1 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 5rem;

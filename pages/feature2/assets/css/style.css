@@ -1,0 +1,500 @@
+body {
+    justify-content: center;
+  }
+  
+  .mainheader {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+  }
+  
+  .mainheader a {
+    position: relative;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.3s ease;
+  }
+  
+  .mainheader img {
+    height: 3rem;
+    margin: 0 1rem;
+  }
+  
+  .mainheader a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px;
+    left: 50%;
+    background-color: black;
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  
+  .mainheader a:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
+  .mainheader a:hover {
+    color: black;
+  }
+
+  h5 {
+    margin: 0px;
+    font-size: 1.4em;
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+
+  .newslection{
+    margin-top: 5px;
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-content: center;
+    padding-left: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  
+  .center {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .property-card {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    height: 20em;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 15px 15px 7px #e1e1e3, -15px -15px 27px #ffffff;
+  }
+  
+  .property-image {
+    height: 6em;
+    width: 14em;
+    padding: 1em 2em;
+    position: absolute;
+    top: 0px;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('https://static.freelace.com.br/produtos/tenis-adidas-stan-smith/60/D13-5806-060/D13-5806-060_zoom5.jpg?ts=1573645504');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .property-description {
+    background-color: #ffffffb7;
+    height: 12em;
+    width: 14em;
+    position: absolute;
+    bottom: 0em;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 0.5em 1em;
+    text-align: left;
+  }
+
+  .property-description p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+  }
+
+  .property-description h5{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .property-card:hover .property-description {
+    height: 5em;
+    padding: 0px 1em;
+  }
+  
+  .property-card:hover .property-image {
+    height: 18em;
+  }
+  
+  .property-card:hover .property-social-icons {
+    background-color: white;
+  }
+  
+  .property-card:hover .property-social-icons:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+
+  .center1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .property-card1 {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    height: 20em;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 15px 15px 7px #e1e1e3, -15px -15px 27px #ffffff;
+  }
+  
+  .property-image1 {
+    height: 6em;
+    width: 14em;
+    padding: 1em 2em;
+    position: absolute;
+    top: 0px;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('https://www.80scasualclassics.co.uk/images/adidas-retropy-f2-trainers-navy-off-white-p20216-107314_zoom.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .property-description1 {
+    background-color: #ffffffb7;
+    height: 12em;
+    width: 14em;
+    position: absolute;
+    bottom: 0em;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 0.5em 1em;
+    text-align: left;
+  }
+
+  .property-description1 p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+  }
+
+  .property-description1 h5{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .property-card1:hover .property-description1 {
+    height: 5em;
+    padding: 0px 1em;
+  }
+  
+  .property-card1:hover .property-image1 {
+    height: 18em;
+  }
+  
+  .property-card1:hover .property-social-icons1 {
+    background-color: white;
+  }
+  
+  .property-card1:hover .property-social-icons1:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+
+  .center2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .property-card2 {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    height: 20em;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 15px 15px 7px #e1e1e3, -15px -15px 27px #ffffff;
+  }
+  
+  .property-image2 {
+    height: 6em;
+    width: 14em;
+    padding: 1em 2em;
+    position: absolute;
+    top: 0px;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('https://sneakernews.com/wp-content/uploads/2023/08/adidas-samba-xlg-release-date-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .property-description2 {
+    background-color: #ffffffb7;
+    height: 12em;
+    width: 14em;
+    position: absolute;
+    bottom: 0em;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 0.5em 1em;
+    text-align: left;
+  }
+
+  .property-description2 p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+  }
+
+  .property-description2 h5{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .property-card2:hover .property-description2 {
+    height: 5em;
+    padding: 0px 1em;
+  }
+  
+  .property-card2:hover .property-image2 {
+    height: 18em;
+  }
+  
+  .property-card2:hover .property-social-icons2 {
+    background-color: white;
+  }
+  
+  .property-card2:hover .property-social-icons2:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+
+
+  .center3 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .property-card3 {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    height: 20em;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 15px 15px 7px #e1e1e3, -15px -15px 27px #ffffff;
+  }
+  
+  .property-image3 {
+    height: 6em;
+    width: 14em;
+    padding: 1em 2em;
+    position: absolute;
+    top: 0px;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('https://assets.adidas.com/images/w_1880,f_auto,q_auto/3bd1b1aa04c74b7a93c9224faaffff33_9366/IE1809_HM1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .property-description3 {
+    background-color: #ffffffb7;
+    height: 12em;
+    width: 14em;
+    position: absolute;
+    bottom: 0em;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 0.5em 1em;
+    text-align: left;
+  }
+
+  .property-description3 p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+  }
+
+  .property-description3 h5{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .property-card3:hover .property-description3 {
+    height: 5em;
+    padding: 0px 1em;
+  }
+  
+  .property-card3:hover .property-image3 {
+    height: 18em;
+  }
+  
+  .property-card3:hover .property-social-icons3 {
+    background-color: white;
+  }
+  
+  .property-card3:hover .property-social-icons3:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+
+
+  .center4 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .property-card4 {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    height: 20em;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 15px 15px 7px #e1e1e3, -15px -15px 27px #ffffff;
+  }
+  
+  .property-image4 {
+    height: 6em;
+    width: 14em;
+    padding: 1em 2em;
+    position: absolute;
+    top: 0px;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('https://assets.adidas.com/images/w_940,f_auto,q_auto/243a8855baad4c7db66faf3500b3a890_9366/HP2260_04_standard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .property-description4 {
+    background-color: #ffffffb7;
+    height: 12em;
+    width: 14em;
+    position: absolute;
+    bottom: 0em;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 0.5em 1em;
+    text-align: left;
+  }
+
+  .property-description4 p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+  }
+
+  .property-description4 h5{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .property-card4:hover .property-description4 {
+    height: 5em;
+    padding: 0px 1em;
+  }
+  
+  .property-card4:hover .property-image4 {
+    height: 18em;
+  }
+  
+  .property-card4:hover .property-social-icons4 {
+    background-color: white;
+  }
+  
+  .property-card4:hover .property-social-icons4:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+
+  .selectiongallery {
+    padding-left: 5rem;
+    display: flex;
+  }
+
+  .kidssection{
+    margin-top: 5rem;
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .kids {
+    position:absolute;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.viewhere {
+    text-decoration: none;
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(200, 53, 53, 0.125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+
