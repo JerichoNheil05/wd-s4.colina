@@ -126,10 +126,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Animating Responsive Website Using HTML And CSS Step-by-Step | Learn How To Make Animating Responsive Website Using HTML And CSS Step-by-Step | https://youtu.be/EU2xgn350EM?si=mOvog5VyOiYMjAu1 |
-
-| HTML CSS Website Design Tutorials | Learn How To Make Animated Website Design Using HTML And CSS | Make Website With Animation using HTML and CSS step by step | (https://youtu.be/yU_JgeAIRko?si=uW9ulJyN3ojSqvWW) |
-
-| How To Make A Website Using HTML And CSS | Website Design In HTML And CSS | Learn How To Make A Website Using HTML And CSS | Latest Website UI Design With HTML And CSS | Website Design Tutorial | (https://youtu.be/-2LtZRi6Q0s?si=ywH-g26OqjFXjkgn) |
-
-| 17 | MAKING A CATEGORY SECTION WITH HTML | 2023 | Learn HTML and CSS Full Course for Beginners| In this video we will create a category section together on our website! 🙂 A category section is a great way to lead users to your products, services, or the information you want them to find. | https://youtu.be/PFwQWUAd3Rc?si=I9Dsy3w4lg4t_M_G |
+|  HTML CSS Website Design Tutorials | Learn How To Make Animated Website Design Using HTML And CSS | Make Website With Animation using HTML and CSS step by step | (https://youtu.be/yU_JgeAIRko?si=uW9ulJyN3ojSqvWW |
+|   How To Make A Website Using HTML And CSS |Website Design In HTML And CSS | Learn How To Make A Website Using HTML And CSS | Latest Website UI Design With HTML And CSS | (https://youtu.be/-2LtZRi6Q0s?si=ywH-g26OqjFXjkgn) |
+|   17 | MAKING A CATEGORY SECTION WITH HTML | 2023 | Learn HTML and CSS Full Course for Beginners |In this video we will create a category section together on our website! 🙂 A category section is a great way to lead users to your products, services, or the information you want them to find. | https://youtu.be/PFwQWUAd3Rc?si=I9Dsy3w4lg4t_M_G |
 
